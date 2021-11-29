@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum6.2|Salwadila AZ</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .container {
+            width: 800px;
+            margin: auto;
+            display: flex;
+            box-sizing: border-box;
+        }
+        .kanan {
+            display: flex;
+            flex-direction: column;
+        }
+        .kiri {
+            width: 200px;
+            height: 630px;
+            padding: 10px;
+            background-color: hotpink;
+        }
+        .kanan .header {
+            width: 600px;
+            height: 100px;
+            padding: 10px;
+            background-color: rgba(255, 127, 80, 0.767);
+        }
+        .kanan .main {
+            display: flex;
+        }
+        .main .article {
+            width: 400px;
+            padding: 10px;
+            height: 430px;
+            background-color: beige;
+        }
+        .main .aside {
+            width: 200px;
+            padding: 10px;
+            height: 430px;
+            background-color: rgba(33, 241, 214, 0.925);
+        }
+        .kanan .footer {
+            width: 600px;
+            padding: 10px;
+            height: 100px;
+            background-color: rgba(255, 127, 80, 0.767);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="kiri"><h2>Nav</h2></div>
+        <div class="kanan">
+            <div class="header"><h2>Header</h2></div>
+            <div class="main">
+                <div class="article"><h2>Article</h2></div>
+                <div class="aside"><h2>Aside</h2></div>
+            </div>
+            <div class="footer"><h2>Footer</h2></div>
+        </div>
+    </div>
+</body>
+</html>

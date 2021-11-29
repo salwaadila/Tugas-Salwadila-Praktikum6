@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum6.3|Salwadila AZ</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        h2 {
+            text-align: center;
+        }
+        .container {
+            width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            background-color: hotpink;
+        }
+        .header {
+            width: 760px;
+            height: 80px;
+            background-color: turquoise;
+        }
+        .main {
+            width: 760px;
+            height: 300px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .main .aside {
+            width: 200px;
+            height: 300px;
+            background-color: rgb(20, 177, 161);
+        }
+        .main .article {
+            width: 540px;
+            height: 300px;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            background-color: tomato;
+        }
+        .main .article .image {
+            width: 155px;
+            height: 100px;
+            align-self: flex-end;
+            background-color: grey;
+        }
+        .footer {
+            width: 760px;
+            height: 80px;
+            background-color: turquoise;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"><h2>Header</h2></div>
+        <div class="main">
+            <div class="aside"><h2>Aside</h2></div>
+            <div class="article">
+                <div class="image"><h2>Image</h2></div>
+                <div class="image"><h2>Image</h2></div>
+                <div class="image"><h2>Image</h2></div>
+            </div>
+        </div>
+        <div class="footer"><h2>Footer</h2></div>
+    </div>
+</body>
+</html>
